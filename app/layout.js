@@ -3,13 +3,13 @@ import Script from "next/script";
 import "./clash_grotesk.css";
 
 export const metadata = {
-  title: "Genesis 5.0",
+  title: "Genesis 6.0",
   description:
     "Genesis is the largest technical fest of IEEE MUJ.",
-  keywords: "hackathon, IEEEMUJ, genesis, genesis4.0, coding, programming, tech",
+  keywords: "hackathon, IEEEMUJ, genesis, genesis6.0, coding, programming, tech",
   url: "https://genesis.ieeemuj.com",
   openGraph: {
-    title: "Genesis 5.0",
+    title: "Genesis 6.0",
     description:
       "Genesis is the largest technical fest of IEEE MUJ.",
     url: "https://genesis.ieeemuj.com",
@@ -25,7 +25,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
     <head>
-      <title>Genesis 5.0 by IEEE MUJ</title>
+      <title>Genesis 6.0 by IEEE MUJ</title>
         <Script
           strategy="afterInteractive"
           src="https://www.googletagmanager.com/gtag/js?id=G-50RJG4PPLT"
